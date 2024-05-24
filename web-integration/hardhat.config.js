@@ -1,6 +1,6 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
-const { PRIVATE_KEY, TARAXA_KEY } = process.env;
+const { PRIVATE_KEY } = process.env;
 module.exports = {
   defaultNetwork: "PolygonMumbai",
   networks: {
@@ -20,24 +20,17 @@ module.exports = {
       url: "https://rpc.testnet.taraxa.io/",
       accounts: [PRIVATE_KEY],
     },
+    inco_testnet: {
+      url: "https://testnet.inco.org",
+      accounts: [PRIVATE_KEY],
+      chainId: 9090,
+    },
   },
   etherscan: {
-    apiKey: {
-      taraxa_testnet : TARAXA_KEY
-    },
-    customChains: [
-      {
-        network: "taraxa_testnet",
-        chainId: 842,
-        urls: {
-          apiURL: "https://taraxa-testnet.explorer.caldera.xyz/api",
-          browserURL: "https://taraxa-testnet.explorer.caldera.xyz",
-        },
-      },
-    ],
+    customChains: [],
   },
   solidity: {
-    version: "0.8.0",
+    version: "0.8.20",
     settings: {
       optimizer: {
         enabled: true,
