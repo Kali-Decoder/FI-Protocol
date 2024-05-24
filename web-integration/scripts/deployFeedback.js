@@ -1,4 +1,4 @@
-const loayalityTokenRewardAddress ="0xDD0570Edb234A1753e5aD3f8Be8fa7515cdA1C12";
+const loayalityTokenRewardAddress ="0xe6d602De78a7a46F072B117A99b7e45640aB5E7C";
 const feedbackPlatformAddress = "";
 async function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));

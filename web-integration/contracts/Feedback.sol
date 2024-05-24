@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 import "./EncryptedRewardToken.sol";
-import "fhevm/lib/TFHE.sol";
+import {TFHE} from  "fhevm/lib/TFHE.sol";
 
 contract FeedbackPlatform {
     address public owner;

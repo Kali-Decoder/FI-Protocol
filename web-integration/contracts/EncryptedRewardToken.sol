@@ -84,8 +84,9 @@ contract EncryptedRewardToken is EIP712WithModifier {
 
     // Returns the remaining number of tokens that `spender` is allowed to spend
     // on behalf of the caller. The returned ciphertext is under the caller public FHE key.
+    
     function allowance(
-        address spender,
+        address owner,
         bytes32 publicKey,
         bytes calldata signature
     )
@@ -94,10 +95,10 @@ contract EncryptedRewardToken is EIP712WithModifier {
         onlySignedPublicKey(publicKey, signature)
         returns (bytes memory)
     {
-        address owner = msg.sender;
-
-        return TFHE.reencrypt(_allowance(owner, spender), publicKey);
+        return TFHE.reencrypt(_allowance(owner, msg.sender), publicKey);
     }
+
+    
 
     // Transfers `encryptedAmount` tokens using the caller's allowance.
     function transferFrom(
