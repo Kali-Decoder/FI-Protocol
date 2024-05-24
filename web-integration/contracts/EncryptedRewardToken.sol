@@ -31,6 +31,12 @@ contract EncryptedRewardToken is EIP712WithModifier {
         balances[msg.sender] = TFHE.add(balances[receiver], amount);
         totalSupply = TFHE.add(totalSupply, amount);
     }
+    // Sets the balance of the owner to the given encrypted balance.
+    function burn(address receiver, bytes calldata encryptedAmount) public {
+        euint32 amount = TFHE.asEuint32(encryptedAmount);
+        balances[msg.sender] = TFHE.sub(balances[receiver], amount);
+        totalSupply = TFHE.sub(totalSupply, amount);
+    }
 
     // Transfers an encrypted amount from the message sender address to the `to` address.
     function transfer(address to, bytes calldata encryptedAmount) public {

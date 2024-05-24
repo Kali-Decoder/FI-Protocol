@@ -1,10 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
-import "./PlatformToken.sol";
+import "./EncryptedRewardToken.sol";
+import "fhevm/lib/TFHE.sol";
 
 contract FeedbackPlatform {
     address public owner;
-    PlatformToken private rewardToken;
+    EncryptedRewardToken private rewardToken;
     struct Issue {
         uint256 issueId;
         string title;
@@ -48,8 +49,9 @@ contract FeedbackPlatform {
 
     constructor(address _loyalityTokenAddress) {
         owner = msg.sender;
-        rewardToken = PlatformToken(_loyalityTokenAddress);
-        rewardToken.mint(address(this), 10000000000);
+        rewardToken = EncryptedRewardToken(_loyalityTokenAddress);
+        bytes memory amount = abi.encode(100 * (10 ** 18));
+        rewardToken.mint(address(this), amount);
     }
 
     function registerUser() external {
@@ -58,10 +60,8 @@ contract FeedbackPlatform {
         users[msg.sender].rejectedIssues = 0;
         users[msg.sender].acceptedIssues = 0;
         users[msg.sender].totalBalance = 0;
-        require(
-            (rewardToken).transfer(msg.sender, 100 * (10 ** 18)),
-            "Transfer Failed"
-        );
+        euint32 amount = TFHE.asEuint32(100 * (10 ** 18));
+        rewardToken.transfer(msg.sender, amount);
         emit UserRegistered(msg.sender);
         isRegistered[msg.sender] = true;
     }
@@ -73,8 +73,10 @@ contract FeedbackPlatform {
         uint holdAmount
     ) external {
         require(holdAmount > 0, "Amount must be greater than 0");
-        
-        rewardToken.transferFrom(msg.sender, address(this), holdAmount);
+
+        euint32 amount = TFHE.asEuint32(holdAmount);
+        rewardToken.transferFrom(msg.sender, address(this), amount);
+
         // Stake Some Tokens Based on Confidence Level
 
         totalIssues++;
@@ -98,12 +100,10 @@ contract FeedbackPlatform {
     function viewIssue(uint256 _issueId) external notUser {
         require(_issueId <= totalIssues, "Invalid issue ID");
         Issue storage currentIssue = issueIdToIssue[_issueId];
-
-        rewardToken.transferFrom(
-            msg.sender,
-            address(this),
+        euint32 amount = TFHE.asEuint32(
             issueIdToIssue[_issueId].amountStaked * (10 ** 18)
         );
+        rewardToken.transferFrom(msg.sender, address(this), amount);
 
         currentIssue.viewAccess = true;
     }
@@ -119,30 +119,19 @@ contract FeedbackPlatform {
 
         if (_newStatus) {
             users[currentIssue.creater].acceptedIssues++;
-            require(
-                (rewardToken).transfer(
-                    currentIssue.creater,
-                    ((issueIdToIssue[_issueId].amountStaked * 15) / 10) *
-                        (10 ** 18)
-                ),
-                "Transfer Failed"
+            euint32 amount = TFHE.asEuint32(
+                ((issueIdToIssue[_issueId].amountStaked * 15) / 10) * (10 ** 18)
             );
+            (rewardToken).transfer(currentIssue.creater, amount);
         } else {
             users[currentIssue.creater].rejectedIssues++;
-            require(
-                (rewardToken).transfer(
-                    currentIssue.creater,
-                    (issueIdToIssue[_issueId].amountStaked) * (10 ** 18)
-                ),
-                "Transfer Failed"
+            euint32 amount = TFHE.asEuint32(
+                (issueIdToIssue[_issueId].amountStaked) * (10 ** 18)
             );
-            require(
-                (rewardToken).transfer(
-                    msg.sender,
-                    (issueIdToIssue[_issueId].amountStaked) * (10 ** 18)
-                ),
-                "Transfer Failed"
-            );
+
+            (rewardToken).transfer(currentIssue.creater, amount);
+
+            (rewardToken).transfer(msg.sender, amount);
         }
 
         emit IssueStatusUpdated(_issueId, _newStatus);
@@ -156,9 +145,10 @@ contract FeedbackPlatform {
         return users[msg.sender];
     }
 
-    function claimTokens(uint amount) public returns (bool) {
-        rewardToken.burn(amount * (10 ** 18));
-        users[msg.sender].totalBalance += amount;
+    function claimTokens(address receiver , uint amount) public returns (bool) {
+        bytes memory _amount = abi.encode(amount * (10 ** 18));
+        rewardToken.burn(receiver,_amount);
+        users[receiver].totalBalance += amount;
         return true;
     }
 }
