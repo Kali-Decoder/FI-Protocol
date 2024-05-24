@@ -1,4 +1,4 @@
-const loayalityTokenRewardAddress ="0x570fd1FED3dF41d79E5da1c0124F308516b101A0";
+const loayalityTokenRewardAddress ="0xBFff78BB02925E4D8671D0d90B2a6330fcAedd87";
 const feedbackPlatformAddress = "0xaE068D19Dc79aD9052e8dC4b12ADc4831338d820";
 async function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -13,13 +13,8 @@ async function deployContract() {
   const address = await deployedContract.target;
   console.log("FeedbackPlatform Contract Address:", address);
   await sleep(30 * 1000);
-  console.log("Verifying FeedbackPlatform on Given Network ...");
-  //   Verify the Liquidity Locking Contract
-  await hre.run("verify:verify", {
-    contract: "contracts/Feedback.sol:FeedbackPlatform",
-    address: address,
-    constructorArguments: [loayalityTokenRewardAddress],
-  });
+  console.log("Done!!!");
+  
 }
 
 deployContract()

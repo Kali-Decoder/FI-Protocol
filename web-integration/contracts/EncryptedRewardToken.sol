@@ -26,9 +26,9 @@ contract EncryptedRewardToken is EIP712WithModifier {
     }
 
     // Sets the balance of the owner to the given encrypted balance.
-    function mint(bytes calldata encryptedAmount) public {
+    function mint(address receiver , bytes calldata encryptedAmount) public {
         euint32 amount = TFHE.asEuint32(encryptedAmount);
-        balances[msg.sender] = TFHE.add(balances[msg.sender], amount);
+        balances[msg.sender] = TFHE.add(balances[receiver], amount);
         totalSupply = TFHE.add(totalSupply, amount);
     }
 
