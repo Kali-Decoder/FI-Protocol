@@ -8,6 +8,20 @@ Many digital platforms struggle with identifying and resolving bugs efficiently,
 ## Solution:
 FI-Protocol incentivizes users to report bugs by rewarding them with tokens for their contributions. By integrating with Inco Network and Gelato, FI-Protocol provides a seamless and rewarding bug reporting experience for users.
 
+## Technology Stack | Tools | Libraries:
+- Inco Network 
+- MERN
+- Hardhat 
+- Encrypted Types 
+- TFHE Library
+<img width="683" alt="Screenshot 2024-05-25 at 1 52 26 AM" src="https://github.com/Kali-Decoder/FI-Protocol/assets/82640789/9f16645c-cc1f-4377-bf48-dfc3913ae55a">
+<br/>
+- Encrypted ERC20 
+- Adding Burn Token Functionality in Encrypted ERC20
+<img width="745" alt="Screenshot 2024-05-25 at 1 54 06 AM" src="https://github.com/Kali-Decoder/FI-Protocol/assets/82640789/f2abb8ad-5473-47e8-b65a-9e0b6b5a9e1c">
+<br/><br/>
+
+
 ## Features and Functionality
 1. Decentralized Bug Reporting: Utilizes Inco Network’s modular architecture to ensure transparency and security in bug reporting.
 2. Reward System: Leverages Gelato's functions and tools to distribute rewards in a trustless manner.
@@ -25,18 +39,7 @@ FI-Protocol will initially target digital platform owners and developers, highli
 ## Impact on Inco Network and Gelato:
 FI-Protocol has the potential to expand Inco Network's token supply by rewarding users with Inco Network tokens for their bug reports. FI-Protocol can enhance Inco Network's market reach by attracting new users and developers to the platform, thereby increasing the demand for Inco Network tokens and highlighting Inco Network's and Gelato innovative technology and community-driven approach.
 
-## Technology Stack | Tools | Libraries:
-- Inco Network 
-- MERN
-- Hardhat 
-- Encrypted Types 
-- TFHE Library
-<img width="683" alt="Screenshot 2024-05-25 at 1 52 26 AM" src="https://github.com/Kali-Decoder/FI-Protocol/assets/82640789/9f16645c-cc1f-4377-bf48-dfc3913ae55a">
-<br/>
-- Encrypted ERC20 
-- Adding Burn Token Functionality in Encrypted ERC20
-<img width="745" alt="Screenshot 2024-05-25 at 1 54 06 AM" src="https://github.com/Kali-Decoder/FI-Protocol/assets/82640789/f2abb8ad-5473-47e8-b65a-9e0b6b5a9e1c">
-<br/><br/>
+
 
 ## Future
 - The users and companies will stake Inco Network tokens as a collateral to get FI tokens which they will use to report bugs and resolve bugs.
