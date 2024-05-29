@@ -44,27 +44,4 @@ FI-Protocol has the potential to expand Inco Network's token supply by rewarding
 5. The model can easily adapt the layer.xyz / zealy kind of model functionality for the Inco Network ecosystem.
 6. Launch on Inco Network Mainnet
 
-## Platform
-
-### Landing Page:
-![291031554-0daf0b0a-41fd-4b10-bf59-279cdf9e3557](https://github.com/Kali-Decoder/taraxa_hack/assets/69464744/e1cf36c1-54b2-4121-963b-de54e3215232)
-
-### Issue Creation Page:
-![291031552-56802235-9fc1-4781-a519-4d7de6c4ce62](https://github.com/Kali-Decoder/taraxa_hack/assets/69464744/fa8833ee-cdf5-4155-9b72-366181f55af8)
-
-### User Dashboard:
-![291031551-528fccd9-b3ca-468e-9d03-e0edfd6a0f30](https://github.com/Kali-Decoder/taraxa_hack/assets/69464744/bef9f269-a6f9-4337-95ce-acae97a03e9f)
-
-### User Referral:
-![291031548-15cd4ce6-75a6-4c50-9e84-cf6af0db0c1a](https://github.com/Kali-Decoder/taraxa_hack/assets/69464744/a1e1abc6-8a93-4429-948a-d98950fca920)
-
-### Issue History:
-![291030800-26497b29-32dc-4ebf-9a1e-872bdbb68b5e](https://github.com/Kali-Decoder/taraxa_hack/assets/69464744/ae51d913-f99d-4433-9a8c-adea6a4a2108)
-
-### Company Dashboard:
-![291030802-c2022767-16ea-4a31-98ac-8c9c5a0d618b](https://github.com/Kali-Decoder/taraxa_hack/assets/69464744/c04cb25a-e8ac-42a3-9b85-2f1bf8322106)
-
-### Company Checks Issue after Stake Complete and Accepts and Decline:
-![291031949-a4fd886b-a992-485c-bd43-9569f3a9f368](https://github.com/Kali-Decoder/taraxa_hack/assets/69464744/8a2651b5-f0fa-40ee-b6cc-173eecba5608)
-
 Feedback Incentivized aims to provide a secure, transparent, and rewarding environment for users to contribute to the development of more robust software solutions, all while leveraging the unique confidentiality and encryption capabilities of Inco Network.
