@@ -16,7 +16,7 @@ FI-Protocol incentivizes users to report bugs by rewarding them with tokens for 
 - TFHE Library
 <img width="683" alt="Screenshot 2024-05-25 at 1 52 26 AM" src="https://github.com/Kali-Decoder/FI-Protocol/assets/82640789/9f16645c-cc1f-4377-bf48-dfc3913ae55a">
 <br/>
-- Encrypted ERC20 
+- Encrypted ERC20 for Reward Token Distribution
 - Adding Burn Token Functionality in Encrypted ERC20
 <img width="745" alt="Screenshot 2024-05-25 at 1 54 06 AM" src="https://github.com/Kali-Decoder/FI-Protocol/assets/82640789/f2abb8ad-5473-47e8-b65a-9e0b6b5a9e1c">
 <br/><br/>
