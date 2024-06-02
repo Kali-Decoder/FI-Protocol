@@ -47,7 +47,7 @@ const CompanyDashboard = () => {
             <div className="my-2 mb-6">
               <h1 className="text-2xl font-bold mx-4 text-white">
                 Company Dashboard <br />{" "}
-                <span className="text-red-500">Google</span>
+                <span className="text-red-500">Amazon</span>
               </h1>
             </div>
             <ul className="mt-10">
