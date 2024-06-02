@@ -1,9 +1,9 @@
-import {  metisGoerli, scrollSepolia  } from "wagmi/chains";
+import {  metisGoerli, scrollSepolia , optimismSepolia  } from "wagmi/chains";
 import { jsonRpcProvider } from "wagmi/providers/jsonRpc";
 import { getDefaultWallets } from "@rainbow-me/rainbowkit";
 import { configureChains, createConfig } from "wagmi";
 const { chains, publicClient } = configureChains(
-  [ metisGoerli, scrollSepolia ],
+  [ metisGoerli, scrollSepolia,optimismSepolia ],
   [
     jsonRpcProvider({
       rpc: (chainId) => {
@@ -19,6 +19,11 @@ const { chains, publicClient } = configureChains(
         else if (chainId.id == 599) {
           return {
             http: "https://goerli.gateway.metisdevops.link",
+          };
+        }
+        else if (chainId.id == 11155420) {
+          return {
+            http: "https://sepolia.optimism.io",
           };
         }
       },

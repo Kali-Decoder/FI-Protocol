@@ -374,8 +374,8 @@ export const LoyalityTokenABI = [
   },
 ];
 
-export const LoyalityAddress = "0x72105396D6b1c1378581D5Be21683A6470c1F2aE";
-export const FeedBackAddress = "0x8A9bBa3013d2A4Cf17d081157C9F90b6D4aA6eE4";
+export const LoyalityAddress = "0xf1105497d5799207f626d7fE8f1243A4e21a65a4";
+export const FeedBackAddress = "0x1482f7762CCa4596691fd6a5faF933e727D33912";
 export const FeedBackAbi = [
   {
     inputs: [
