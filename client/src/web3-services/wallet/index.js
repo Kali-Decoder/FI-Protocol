@@ -1,26 +1,26 @@
-import { polygon, polygonMumbai, arbitrum, bsc, mainnet,taraxaTestnet } from "wagmi/chains";
+import {  metisGoerli, scrollSepolia  } from "wagmi/chains";
 import { jsonRpcProvider } from "wagmi/providers/jsonRpc";
 import { getDefaultWallets } from "@rainbow-me/rainbowkit";
 import { configureChains, createConfig } from "wagmi";
 const { chains, publicClient } = configureChains(
-  [polygonMumbai,taraxaTestnet],
+  [ metisGoerli, scrollSepolia ],
   [
     jsonRpcProvider({
       rpc: (chainId) => {
-        
-        if (chainId.id == 80001) {
+        if (chainId.id == 80002) {
           return {
-            http: "https://rpc-mumbai.maticvigil.com",
-            webSocket:
-              "wss://polygon-mumbai.g.alchemy.com/v2/EaKu789oxhWzYFvzEzOPAkCqIl2CwKj5",
+            http: "https://rpc-amoy.polygon.technology",
+          };
+        } else if (chainId.id == 534351) {
+          return {
+            http: "https://sepolia-rpc.scroll.io/",
           };
         }
-        else if (chainId.id == 842) {
+        else if (chainId.id == 599) {
           return {
-            http: "https://rpc.testnet.taraxa.io/",
+            http: "https://goerli.gateway.metisdevops.link",
           };
         }
-       
       },
     }),
   ]

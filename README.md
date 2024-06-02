@@ -9,6 +9,35 @@ Our vision is to create a secure, transparent, and rewarding ecosystem where use
 In traditional bug reporting systems, users often hesitate to share detailed information due to privacy concerns. Feedback Incentivized solves this problem by utilizing Inco Network's FHE technology to encrypt all bug reports and feedback. This ensures that sensitive information remains confidential while still allowing companies to verify and act upon the reports.
 
 ## Technology Stack | Tools | Libraries:
+- Metis Sepolia Testnet Deployment 
+FICOIN : 
+https://sepolia-explorer.metisdevops.link/address/0x72105396D6b1c1378581D5Be21683A6470c1F2aE
+Feedback Main Contract : 
+https://sepolia-explorer.metisdevops.link/address/0x8A9bBa3013d2A4Cf17d081157C9F90b6D4aA6eE4
+
+- Polygon Amoy Testnet Deployment 
+FICOIN : 
+https://www.oklink.com/amoy/address/0xbfff78bb02925e4d8671d0d90b2a6330fcaedd87
+Feedback Main Contract : 
+https://www.oklink.com/amoy/address/0xdd0570edb234a1753e5ad3f8be8fa7515cda1c12
+
+- Scroll Sepolia Testnet Deployment 
+FICOIN : 
+https://sepolia.scrollscan.com/address/0x09788a0B60eCCd3FE8B951e181B2391e177dFdab
+
+
+
+- CCIP Deployements 👍
+Cross Chain Source Feedback Register Contract (Polygon Amoy Testnet Network) :
+https://www.oklink.com/amoy/tx/0xeec7a4302f4ef1286ec5da95ad4ba94da05e865b24c950495b60949614d418a2
+
+- Cross Chain Destination Feedback Register Contract (Optimism Sepolia Testnet Network) :
+https://sepolia-optimism.etherscan.io/address/0x99BEE918893511aa03Bc802DA3995D6476f6acae
+
+- CCIP Explorer Link 💯
+https://ccip.chain.link/msg/0x73ecd982ebdce21e3789350917329035698eb5c467937d026448c2681a6e01eb
+
+
 - Inco Network 
 
 https://explorer.testnet.inco.org/address/0xBFff78BB02925E4D8671D0d90B2a6330fcAedd87
@@ -16,6 +45,8 @@ https://explorer.testnet.inco.org/address/0xBFff78BB02925E4D8671D0d90B2a6330fcAe
 - Hardhat 
 - Encrypted Types 
 - TFHE Library
+
+
 
 <img width="683" alt="Screenshot 2024-05-25 at 1 52 26 AM" src="https://github.com/Kali-Decoder/FI-Protocol/assets/82640789/9f16645c-cc1f-4377-bf48-dfc3913ae55a">
 <br/>
