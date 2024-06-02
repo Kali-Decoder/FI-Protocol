@@ -10,25 +10,25 @@ In traditional bug reporting systems, users often hesitate to share detailed inf
 
 ## Technology Stack | Tools | Libraries:
 - Metis Sepolia Testnet Deployment 
-FICOIN : 
+- FICOIN : 
 https://sepolia-explorer.metisdevops.link/address/0x72105396D6b1c1378581D5Be21683A6470c1F2aE
-Feedback Main Contract : 
+- Feedback Main Contract : 
 https://sepolia-explorer.metisdevops.link/address/0x8A9bBa3013d2A4Cf17d081157C9F90b6D4aA6eE4
 
-- Polygon Amoy Testnet Deployment 
-FICOIN : 
-https://www.oklink.com/amoy/address/0xbfff78bb02925e4d8671d0d90b2a6330fcaedd87
-Feedback Main Contract : 
-https://www.oklink.com/amoy/address/0xdd0570edb234a1753e5ad3f8be8fa7515cda1c12
+- Polygon Amoy Testnet Deployment <br/>
+- FICOIN : 
+https://www.oklink.com/amoy/address/0xbfff78bb02925e4d8671d0d90b2a6330fcaedd87 <br/>
+- Feedback Main Contract : 
+https://www.oklink.com/amoy/address/0xdd0570edb234a1753e5ad3f8be8fa7515cda1c12 <br/>
 
-- Scroll Sepolia Testnet Deployment 
-FICOIN : 
+- Scroll Sepolia Testnet Deployment <br/>
+- FICOIN : <br/>
 https://sepolia.scrollscan.com/address/0x09788a0B60eCCd3FE8B951e181B2391e177dFdab
 
 
 
-- CCIP Deployements 👍
-Cross Chain Source Feedback Register Contract (Polygon Amoy Testnet Network) :
+- CCIP Deployements 👍 <br/>
+- Cross Chain Source Feedback Register Contract (Polygon Amoy Testnet Network) :
 https://www.oklink.com/amoy/tx/0xeec7a4302f4ef1286ec5da95ad4ba94da05e865b24c950495b60949614d418a2
 
 - Cross Chain Destination Feedback Register Contract (Optimism Sepolia Testnet Network) :
