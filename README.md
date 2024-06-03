@@ -95,3 +95,29 @@ FI-Protocol has the potential to expand Inco Network's token supply by rewarding
 - Supporting More Tokens and Chains: Support 50+ new tokens and 20+ new chains within the next few months after the end of the hackathon.
 
 Feedback Incentivized aims to provide a secure, transparent, and rewarding environment for users to contribute to the development of more robust software solutions, all while leveraging the unique confidentiality and encryption capabilities of Inco Network.
+
+
+## Platform ( UI | UX TRACK )
+### Landing Page:
+![chrome-capture-2023-12-17](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/0daf0b0a-41fd-4b10-bf59-279cdf9e3557)
+
+### Connect Wallet or Sign Up with Google:
+![chrome-capture-2023-12-17 (5)](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/074f8e1a-02c6-4221-bbc0-290176ee7511)
+
+### Issue Creation Page:
+![chrome-capture-2023-12-17 (1)](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/56802235-9fc1-4781-a519-4d7de6c4ce62)
+
+### User Dashboard:
+![chrome-capture-2023-12-17 (2)](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/528fccd9-b3ca-468e-9d03-e0edfd6a0f30)
+
+### User Referral:
+![chrome-capture-2023-12-17 (3)](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/15cd4ce6-75a6-4c50-9e84-cf6af0db0c1a)
+
+### Issue History:
+![WhatsApp Image 2023-12-17 at 5 13 29 AM](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/26497b29-32dc-4ebf-9a1e-872bdbb68b5e)
+
+### Company Dashboard:
+![WhatsApp Image 2023-12-17 at 5 17 44 AM](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/c2022767-16ea-4a31-98ac-8c9c5a0d618b)
+
+### Company Checks Issue after Stake Complete and Accepts and Decline:
+![chrome-capture-2023-12-17 (4)](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/a4fd886b-a992-485c-bd43-9569f3a9f368)
