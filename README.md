@@ -99,25 +99,24 @@ Feedback Incentivized aims to provide a secure, transparent, and rewarding envir
 
 ## Platform ( UI | UX TRACK )
 ### Landing Page:
-![chrome-capture-2023-12-17](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/0daf0b0a-41fd-4b10-bf59-279cdf9e3557)
-
-### Connect Wallet or Sign Up with Google:
-![chrome-capture-2023-12-17 (5)](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/074f8e1a-02c6-4221-bbc0-290176ee7511)
+![291031554-0daf0b0a-41fd-4b10-bf59-279cdf9e3557](https://github.com/Kali-Decoder/FI-Protocol/assets/69464744/ce61fe17-0b57-45ac-bf59-6fd3104932f9)
 
 ### Issue Creation Page:
-![chrome-capture-2023-12-17 (1)](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/56802235-9fc1-4781-a519-4d7de6c4ce62)
+![291031552-56802235-9fc1-4781-a519-4d7de6c4ce62](https://github.com/Kali-Decoder/FI-Protocol/assets/69464744/82316d6f-d64f-452f-b355-345a6bee7ab6)
 
 ### User Dashboard:
-![chrome-capture-2023-12-17 (2)](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/528fccd9-b3ca-468e-9d03-e0edfd6a0f30)
+![291031551-528fccd9-b3ca-468e-9d03-e0edfd6a0f30](https://github.com/Kali-Decoder/FI-Protocol/assets/69464744/915d9c89-bd6b-471d-8a13-684d7570cb7c)
 
 ### User Referral:
-![chrome-capture-2023-12-17 (3)](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/15cd4ce6-75a6-4c50-9e84-cf6af0db0c1a)
+![291031548-15cd4ce6-75a6-4c50-9e84-cf6af0db0c1a](https://github.com/Kali-Decoder/FI-Protocol/assets/69464744/ec5d6e36-8612-4d5c-8eee-e64523c70d49)
 
 ### Issue History:
-![WhatsApp Image 2023-12-17 at 5 13 29 AM](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/26497b29-32dc-4ebf-9a1e-872bdbb68b5e)
+![291030800-26497b29-32dc-4ebf-9a1e-872bdbb68b5e](https://github.com/Kali-Decoder/FI-Protocol/assets/69464744/88c024b1-45b7-44e1-afa9-057e47e8e2dd)
+
+![291030802-c2022767-16ea-4a31-98ac-8c9c5a0d618b](https://github.com/Kali-Decoder/FI-Protocol/assets/69464744/c3a32bfa-81ad-42d1-bbee-41ec2ef44f23)
 
 ### Company Dashboard:
-![WhatsApp Image 2023-12-17 at 5 17 44 AM](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/c2022767-16ea-4a31-98ac-8c9c5a0d618b)
+![291031949-a4fd886b-a992-485c-bd43-9569f3a9f368](https://github.com/Kali-Decoder/FI-Protocol/assets/69464744/aaeb4ce5-5b76-4590-8a9d-55393f0b012e)
 
 ### Company Checks Issue after Stake Complete and Accepts and Decline:
-![chrome-capture-2023-12-17 (4)](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/a4fd886b-a992-485c-bd43-9569f3a9f368)
+![291031949-a4fd886b-a992-485c-bd43-9569f3a9f368](https://github.com/Kali-Decoder/FI-Protocol/assets/69464744/1933a823-831a-4aa1-baee-8a2524228fc3)
